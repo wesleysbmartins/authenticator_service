@@ -1,4 +1,4 @@
-import SQL from "../../services/database/sql/SQL";
+import SQL from "../../adapters/database/sql/SQL";
 import { IMigration } from "../IMigration";
 
 export class MigrationTableUser implements IMigration {

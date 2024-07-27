@@ -1,10 +1,10 @@
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import { Bcrypt } from "../../../services/bcrypt/Bcrypt";
-import Redis from "../../../services/database/nosql/Redis";
-import { RedisOperations } from "../../../services/database/nosql/redisOperations.ts/RedisOperations";
-import SQL from "../../../services/database/sql/SQL";
-import { SqlOperations } from "../../../services/database/sql/sqlOperations/SqlOperations";
-import { JsonWebToken } from "../../../services/jwt/JsonWebToken";
+import { Bcrypt } from "../../../adapters/bcrypt/Bcrypt";
+import Redis from "../../../adapters/database/nosql/Redis";
+import { RedisOperations } from "../../../adapters/database/nosql/redisOperations.ts/RedisOperations";
+import SQL from "../../../adapters/database/sql/SQL";
+import { SqlOperations } from "../../../adapters/database/sql/sqlOperations/SqlOperations";
+import { JsonWebToken } from "../../../adapters/jwt/JsonWebToken";
 import { SignIn } from "./SignIn.ts";
 import { SignInUseCase } from "./SignInUseCase";
 

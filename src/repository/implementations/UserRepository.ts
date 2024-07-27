@@ -1,5 +1,5 @@
 import { User } from "../../entities/User";
-import { SqlOperations } from "../../services/database/sql/sqlOperations/SqlOperations";
+import { SqlOperations } from "../../adapters/database/sql/sqlOperations/SqlOperations";
 import { IUserQueryParams, IUserRepository } from "../IUserRepository";
 
 enum Separetor {

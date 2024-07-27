@@ -1,6 +1,6 @@
 import { IUserQueryParams } from "../../../repository/IUserRepository";
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import { RedisOperations } from "../../../services/database/nosql/redisOperations.ts/RedisOperations";
+import { RedisOperations } from "../../../adapters/database/nosql/redisOperations.ts/RedisOperations";
 
 export class SignOut {
     constructor (

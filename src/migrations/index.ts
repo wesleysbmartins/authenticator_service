@@ -1,4 +1,4 @@
-import { SQL } from "../services/database/sql/SQL";
+import { SQL } from "../adapters/database/sql/SQL";
 import { Migration } from "./Migration";
 import { MigrationDatabase } from "./databases/MigrationDatabase";
 import { MigrationSchema } from "./schemas/MigrationSchema";

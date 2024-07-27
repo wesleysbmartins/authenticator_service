@@ -1,7 +1,7 @@
 import { User } from "../../../entities/User";
 import { IUserQueryParams } from "../../../repository/IUserRepository";
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import { Bcrypt } from "../../../services/bcrypt/Bcrypt";
+import { Bcrypt } from "../../../adapters/bcrypt/Bcrypt";
 
 export class CreateUser {
     

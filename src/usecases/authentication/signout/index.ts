@@ -1,8 +1,8 @@
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import Redis from "../../../services/database/nosql/Redis";
-import { RedisOperations } from "../../../services/database/nosql/redisOperations.ts/RedisOperations";
-import SQL from "../../../services/database/sql/SQL";
-import { SqlOperations } from "../../../services/database/sql/sqlOperations/SqlOperations";
+import Redis from "../../../adapters/database/nosql/Redis";
+import { RedisOperations } from "../../../adapters/database/nosql/redisOperations.ts/RedisOperations";
+import SQL from "../../../adapters/database/sql/SQL";
+import { SqlOperations } from "../../../adapters/database/sql/sqlOperations/SqlOperations";
 import { SignOut } from "./SignOut";
 import { SignOutUseCase } from "./SignOutUseCase";
 

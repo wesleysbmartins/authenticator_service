@@ -3,9 +3,9 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import router from "./routes";
-import { SQL } from "./services/database/sql/SQL";
+import { SQL } from "./adapters/database/sql/SQL";
 import sqlMigration from "./migrations";
-import { Redis } from "./services/database/nosql/Redis";
+import { Redis } from "./adapters/database/nosql/Redis";
 
 dotenv.config();
 

@@ -1,7 +1,7 @@
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import { Bcrypt } from "../../../services/bcrypt/Bcrypt";
-import SQL from "../../../services/database/sql/SQL";
-import { SqlOperations } from "../../../services/database/sql/sqlOperations/SqlOperations";
+import { Bcrypt } from "../../../adapters/bcrypt/Bcrypt";
+import SQL from "../../../adapters/database/sql/SQL";
+import { SqlOperations } from "../../../adapters/database/sql/sqlOperations/SqlOperations";
 import { CreateUser } from "./CreateUser";
 import { CreateUserUseCase } from "./CreateUserUseCase";
 

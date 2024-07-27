@@ -1,4 +1,4 @@
-import SQL from "../../services/database/sql/SQL";
+import SQL from "../../adapters/database/sql/SQL";
 import { IMigration, Schema } from "../IMigration";
 
 export class MigrationSchema implements IMigration {

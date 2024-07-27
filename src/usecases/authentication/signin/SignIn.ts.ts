@@ -1,10 +1,10 @@
 import { error } from "console";
 import { IUserQueryParams } from "../../../repository/IUserRepository";
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import { Bcrypt } from "../../../services/bcrypt/Bcrypt";
-import { JsonWebToken } from "../../../services/jwt/JsonWebToken";
-import { IUserJwt } from "../../../services/jwt/IJsonWebToken";
-import { RedisOperations } from "../../../services/database/nosql/redisOperations.ts/RedisOperations";
+import { Bcrypt } from "../../../adapters/bcrypt/Bcrypt";
+import { JsonWebToken } from "../../../adapters/jwt/JsonWebToken";
+import { IUserJwt } from "../../../adapters/jwt/IJsonWebToken";
+import { RedisOperations } from "../../../adapters/database/nosql/redisOperations.ts/RedisOperations";
 
 export class SignIn {
     constructor (

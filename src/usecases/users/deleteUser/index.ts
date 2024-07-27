@@ -1,6 +1,6 @@
 import { UserRepository } from "../../../repository/implementations/UserRepository";
-import SQL from "../../../services/database/sql/SQL";
-import { SqlOperations } from "../../../services/database/sql/sqlOperations/SqlOperations";
+import SQL from "../../../adapters/database/sql/SQL";
+import { SqlOperations } from "../../../adapters/database/sql/sqlOperations/SqlOperations";
 import { DeleteUser } from "./DeleteUser";
 import { DeleteUserUseCase } from "./DeleteUserUseCase";
 
